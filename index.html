@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div ng-app="app1">
+    <div ng-controller="ctrl1">
+        <button ng-click="trigger()">Trigger 1!</button>
+    </div>
+</div>
+
+<div id="app2" ng-app="app2">
+    <div ng-controller="ctrl2">
+        <button ng-click="trigger()">Trigger 2!</button>
+    </div>
+</div>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/q/q.js"></script>
+
+<script src="broker.js"></script>
+<script src="apps.js"></script>
+</body>
+</html>

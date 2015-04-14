@@ -1,0 +1,22 @@
+{
+  "name": "EventBroker",
+  "version": "0.0.1",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Michael de Wit"
+  ],
+  "ignore": [
+    "apps.js",
+    "index.html"
+  ],
+  "main": "broker.js",
+  "license": "MIT",
+  "dependencies": {
+    "q": "~1.0.1"
+  },
+  "devDependencies": {
+    "angular": "~1.3.15"
+  }
+}
