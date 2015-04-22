@@ -8,13 +8,12 @@
     "Michael de Wit"
   ],
   "ignore": [
-    "apps.js",
+    "app/*",
     "index.html"
   ],
-  "main": "broker.js",
+  "main": "dist/broker.js",
   "license": "MIT",
   "dependencies": {
-    "q": "~1.0.1",
     "angular": "~1.3.15"
   },
   "devDependencies": {}

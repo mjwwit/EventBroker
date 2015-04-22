@@ -42,8 +42,8 @@ angular.module('some.module', ['brokr'])
         console.log('This should log first');
     }]);
 ```
-For a more advanced global example, check the Angular based demo in [index.html][2] and [apps.js][3]
+For a more advanced global example, check the Angular based demo in [index.html][2] and [app.js][3]
 
 [1]: https://github.com/kriskowal/q
 [2]: https://github.com/mjwwit/EventBroker/blob/master/index.html
-[3]: https://github.com/mjwwit/EventBroker/blob/master/apps.js
+[3]: https://github.com/mjwwit/EventBroker/blob/master/app.js
